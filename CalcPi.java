@@ -19,6 +19,6 @@ public class CalcPi {
         }
         pi = pi* 4;  
         System.out.println("pi: " + Math.PI);
-        System.out.printf("pi, approximated: %.15f\n", pi);
+        System.out.printf("pi, approximated: ", pi);
     }
 }

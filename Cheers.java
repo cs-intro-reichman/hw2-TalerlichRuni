@@ -22,15 +22,15 @@ b++;
 
 if (u == true)
 {
-System.err.println("Give me a " + letter + ": " + letter + "!");
+System.out.println("Give me a " + letter + ": " + letter + "!");
 }
 else
 {
-System.err.println("Give me an " + letter + ": " + letter + "!");
+System.out.println("Give me an " + letter + ": " + letter + "!");
 }
 i++;
 }
-System.err.println("What does that spell?");
+System.out.println("What does that spell?");
 int c=0;
 while (c < times)
 {
