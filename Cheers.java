@@ -31,7 +31,6 @@ else
 i++;
 }
 System.out.println("What does that spell?");
-System.out.println(); 
 int c=0;
 while (c < times)
 {
