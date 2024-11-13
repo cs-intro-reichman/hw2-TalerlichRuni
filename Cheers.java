@@ -3,7 +3,7 @@ public static void main(String[] args)
 {
 String Word = args[0];
 int times = Integer.parseInt(args[1]); 
-String NoWord = "AEFHILMNOR";
+String NoWord = "AEFHILMNORSX";
 String UpdateWord = Word.toUpperCase();
 int i=0 ;
 while( i < UpdateWord.length())
@@ -31,12 +31,14 @@ System.out.println("Give me an " + letter + ": " + letter + "!");
 i++;
 }
 System.out.println("What does that spell?");
+System.out.println(); 
 int c=0;
 while (c < times)
 {
 System.err.println(UpdateWord + "!!!");
 c++;
 }
+System.out.println(); 
 }
 }
 
