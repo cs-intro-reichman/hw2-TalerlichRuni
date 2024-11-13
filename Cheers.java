@@ -22,7 +22,8 @@ b++;
 
 if (u == true)
 {
-        System.out.println("Give me a "  + letter + ": " + letter + "!");
+        System.out.println("Give me a  "  + letter + ": " + letter + "!");
+        
 }
 else
 {
