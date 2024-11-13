@@ -22,11 +22,11 @@ b++;
 
 if (u == true)
 {
-System.out.println("Give me a  " + letter + ": " + letter + "!");}
+        System.out.println("Give me a "  + letter + ": " + letter + "!");
+}
 else
 {
-System.out.println("Give me an " + letter + ": " + letter + "!");
-
+        System.out.println("Give me an "  + letter + ": " + letter + "!");
 }
 i++;
 }
@@ -35,10 +35,9 @@ System.out.println();
 int c=0;
 while (c < times)
 {
-System.err.println(UpdateWord + "!!!");
-c++;
+        System.out.println(UpdateWord + "!!!");
+        c++;
 }
-System.out.println(); 
 }
 }
 
